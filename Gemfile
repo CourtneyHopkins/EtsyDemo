@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 1.2'
 
 # File Uploads and manipulation
 gem "paperclip", "~> 4.2"
+gem "paperclip-dropbox", ">= 1.1.7"
 
 group :development, :test do 
     gem 'sqlite3'
